@@ -1,0 +1,178 @@
+body {
+  background-color: #23252C;
+  font-family: 'Inter', sans-serif;
+}
+
+.image_container {
+  background-color: #F5F5F5;
+  position: absolute;
+  width: 300px; /* set a fixed width for the container */
+  height: 700px; /* set a fixed height for the container */
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%); /* use transform to center the container */
+  border-radius: 10px 10px 0px 0px;
+}
+
+.header--photo {
+  position: relative;
+  width: 300px; /* set to 100% to fill container */
+  height: 300px; /* set to 100% to fill container */
+  top : 21.3%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px 10px 0px 0px;
+}
+
+.business_name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #2B283A;
+}
+
+.profession {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+  color: #F47D27;
+}
+
+.email_button {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  position: relative;
+  width: 247px;
+  height: 34px;
+  left: 25px;
+  background: #FFFFFF;
+  border: 1px solid #D1D5DB;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+.business_website {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* identical to box height, or 15px */
+  text-align: center;
+  color: #4A4E74;
+}
+
+.business_about {
+  position: absolute;
+  width: 242.71px;
+  height: 21px;
+  left: 25px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+  color: #2B283A;
+}
+
+.business_about_content {
+  position: absolute;
+  width: 247px;
+  height: 61px;
+  left: 25px;
+  top: 490px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* or 15px */
+  color: #4A4E74;
+}
+
+.business_interest {
+  position: absolute;
+  width: 242.71px;
+  height: 21px;
+  left: 25px;
+  top : 580px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2B283A;
+}
+
+.business_interest_content {
+  position: absolute;
+  width: 247px;
+  height: 61px;
+  left: 25px;
+  top: 610px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #4A4E74;
+}
+
+.social_media {
+  position: absolute;
+  text-align: center;
+  width: 300px;
+  height: 64px;
+  top: 700px;
+  background: #D5D4D8;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.icon_twitter {
+  position: relative;
+  padding: 5px;
+  font-size: 35px;
+  top: 20%;
+  color : grey;
+}
+
+.icon_facebook {
+  position: relative;
+  padding: 5px;
+  font-size: 35px;
+  top: 20%;
+  color : grey;
+}
+
+.icon_instagram {
+  position: relative;
+  padding: 5px;
+  font-size: 35px;
+  top: 20%;
+  color : grey;
+}
+
+.icon_linkedin {
+  position: relative;
+  padding: 5px;
+  font-size: 35px;
+  top: 20%;
+  color : grey;
+}
+
+.icon_github {
+  position: relative;
+  padding: 5px;
+  font-size: 35px;
+  top: 20%;
+  color : grey;
+}
